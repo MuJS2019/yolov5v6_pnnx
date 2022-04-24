@@ -5,4 +5,10 @@
 ```bash
 sudo pacman -Syu hdf5 vtk opencv
 ```
-
+构建完环境后，只需要在项目文件夹里：
+```shell
+mkdir build & cd build
+cmake ..
+make
+```
+就可以在build文件夹里生成可运行的文件了。
