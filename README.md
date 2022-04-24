@@ -5,6 +5,7 @@
 ```bash
 sudo pacman -Syu hdf5 vtk opencv
 ```
+由于linux最新版本的opencv目录为/usr/lib/opencv4/opencv2，建议将opencv2文件夹单独复制到/usr/lib中以兼容代码。  
 构建完环境后，只需要在项目文件夹里：
 ```bash
 mkdir build & cd build
