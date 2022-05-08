@@ -12,7 +12,7 @@ mkdir build & cd build
 cmake ..
 make
 ```
-就可以在build文件夹里生成可运行的文件了，将对应的bin和param权值文件放到同目录下即可调用，调用样例为：
+就可以在build文件夹里生成可运行的文件了，将对应的bin和param权值文件放到执行文件同目录下即可调用，调用样例为：
 ```bash
 ./yolov5v6_ncnn 0.jpg
 ```
