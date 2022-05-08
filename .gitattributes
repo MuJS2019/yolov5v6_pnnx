@@ -1,0 +1,2 @@
+yolov5s6.ncnn.param filter=lfs diff=lfs merge=lfs -text
+yolov5s6.ncnn.bin filter=lfs diff=lfs merge=lfs -text
